@@ -1,0 +1,30 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+button{
+    border: none;
+    background-color: teal;
+    margin-left: 15px;
+    padding: 7px 13px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.recordstat{
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+audio{
+    margin-left: 20px;
+}
+
+.audio{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 150px;
+}

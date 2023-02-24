@@ -1,0 +1,75 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:url("https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}
+
+.mainct{
+  background-color: rgba(255, 255, 255, 0.148);
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  border: white 1px solid;
+  border-radius: 5px;
+  width: 25vw;
+  font-family: 'Raleway', sans-serif;
+}
+
+.registerTitle {
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.registerForm > label {
+  margin: 10px 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(2, 149, 217);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 150px;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background-color: rgba(26, 141, 236, 0.918);;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  
+}

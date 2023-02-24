@@ -1,0 +1,70 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:url("https://images.pexels.com/photos/3312242/pexels-photo-3312242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+.loginTitle {
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+  border-radius: 5px;
+}
+
+.loginButton {
+  
+  cursor: pointer;
+  background-color: rgb(2, 149, 217);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 70px;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.loginButton:disabled{
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+  font-family: 'Raleway', sans-serif;
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background-color: rgba(26, 141, 236, 0.918);
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+}
